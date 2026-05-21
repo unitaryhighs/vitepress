@@ -10,8 +10,11 @@ import {
 } from 'vitepress-plugin-group-icons'
 import llmstxt from 'vitepress-plugin-llms'
 
-const prod = !!process.env.NETLIFY
-const siteUrl = 'https://vitepress.dev'
+const onNetlify = !!process.env.NETLIFY
+const onGitHubPages = !!process.env.GITHUB_PAGES
+const siteUrl = onGitHubPages
+  ? 'https://unitaryhighs.github.io'
+  : 'https://vitepress.dev'
 
 const ogImage = new URL('/vitepress-og.jpg', siteUrl).href
 
@@ -28,6 +31,8 @@ const localeToOgLocaleMap: Record<string, string> = {
 
 export default defineConfig({
   title: 'VitePress',
+
+  base: onGitHubPages ? '/vitepress/' : '/',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -144,7 +149,7 @@ export default defineConfig({
           firebase: 'logos:firebase'
         }
       }),
-      prod && llmstxt({ workDir: 'en', ignoreFiles: ['index.md'] })
+      onNetlify && llmstxt({ workDir: 'en', ignoreFiles: ['index.md'] })
     ],
     experimental: {
       enableNativePlugin: true
@@ -152,7 +157,7 @@ export default defineConfig({
   },
 
   // prettier-ignore
-  transformPageData: prod ? (pageData, ctx) => {
+  transformPageData: onNetlify ? (pageData, ctx) => {
     const url = new URL(pageData.relativePath.replace(/(?:(^|\/)index)?\.md$/, '$1'), siteUrl).href
     const site = resolveSiteDataByRoute(ctx.siteConfig.site, pageData.relativePath)
     const title = pageData.title ? `${pageData.title} | VitePress` : site.title
