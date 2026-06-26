@@ -1,183 +1,82 @@
-import {
-  defineConfig,
-  resolveSiteDataByRoute,
-  type HeadConfig
-} from 'vitepress'
-import {
-  groupIconMdPlugin,
-  groupIconVitePlugin,
-  localIconLoader
-} from 'vitepress-plugin-group-icons'
-import llmstxt from 'vitepress-plugin-llms'
-
-const onNetlify = !!process.env.NETLIFY
-const onGitHubPages = !!process.env.GITHUB_PAGES
-const siteUrl = onGitHubPages
-  ? 'https://unitaryhighs.github.io'
-  : 'https://vitepress.dev'
-
-const ogImage = new URL('/vitepress-og.jpg', siteUrl).href
-
-const localeToOgLocaleMap: Record<string, string> = {
-  root: 'en_US',
-  zh: 'zh_CN',
-  pt: 'pt_BR',
-  ru: 'ru_RU',
-  es: 'es_ES',
-  ko: 'ko_KR',
-  fa: 'fa_IR',
-  ja: 'ja_JP'
-}
+import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'VitePress',
-
-  base: onGitHubPages ? '/vitepress/' : '/',
-
-  rewrites: {
-    'en/:rest*': ':rest*'
-  },
-
-  lastUpdated: true,
-  cleanUrls: true,
-  metaChunk: true,
-
-  markdown: {
-    math: true,
-    codeTransformers: [
-      // We use `[!!code` and `@@include` in demo to prevent transformation,
-      // here we revert it back.
-      {
-        postprocess(code) {
-          return code
-            .replaceAll('[!!code', '[!code')
-            .replaceAll('@@include', '@include')
-        }
-      }
-    ],
-    config(md) {
-      // TODO: remove when https://github.com/vuejs/vitepress/issues/4431 is fixed
-      const fence = md.renderer.rules.fence!
-      md.renderer.rules.fence = function (tokens, idx, options, env, self) {
-        const { localeIndex = 'root' } = env
-        const codeCopyButtonTitle = (() => {
-          switch (localeIndex) {
-            case 'es':
-              return 'Copiar código'
-            case 'fa':
-              return 'کپی کد'
-            case 'ko':
-              return '코드 복사'
-            case 'pt':
-              return 'Copiar código'
-            case 'ru':
-              return 'Скопировать код'
-            case 'zh':
-              return '复制代码'
-            case 'ja':
-              return 'コードをコピー'
-            default:
-              return 'Copy code'
-          }
-        })()
-        return fence(tokens, idx, options, env, self).replace(
-          '<button title="Copy Code" class="copy"></button>',
-          `<button title="${codeCopyButtonTitle}" class="copy"></button>`
-        )
-      }
-      md.use(groupIconMdPlugin)
-    }
-  },
-
-  sitemap: {
-    hostname: siteUrl,
-    transformItems(items) {
-      return items.filter((item) => !item.url.includes('migration'))
-    }
-  },
-
-  // prettier-ignore
+  title: '教育资源分享站',
+  description: '早教启蒙 · 幼儿园 · 小学 · 初高中 — 一站式教育资源导航',
+  lang: 'zh-CN',
+  base: '/vitepress/',
+  
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
-    ['meta', { name: 'theme-color', content: '#5f67ee' }],
-    ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
+    ['link', { rel: 'icon', href: '/vitepress/logo.svg' }],
   ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    logo: '/logo.svg',
+    
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '早教启蒙', link: '/early-childhood/' },
+      { text: '幼儿园', link: '/kindergarten/' },
+      { text: '小学', link: '/primary-school/' },
+      { text: '初高中', link: '/secondary-school/' },
     ],
 
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: '8J64VVRP8K',
-        apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
-        indexName: 'vitepress',
-        askAi: {
-          assistantId: 'YaVSonfX5bS8',
-          sidePanel: true
+    sidebar: {
+      '/early-childhood/': [
+        {
+          text: '早教启蒙（0-3岁）',
+          items: [
+            { text: '总览', link: '/early-childhood/' },
+            { text: '洪恩幼儿教育资源', link: '/early-childhood/hongen' },
+            { text: '学前教育合集', link: '/early-childhood/preschool' },
+            { text: '字母描红与拼音', link: '/early-childhood/alphabet' },
+            { text: '逻辑狗思维训练', link: '/early-childhood/logic-dog' },
+            { text: '幼小衔接', link: '/early-childhood/transition' },
+          ]
         }
-      }
+      ],
+      '/kindergarten/': [
+        {
+          text: '幼儿园（3-6岁）',
+          items: [
+            { text: '总览', link: '/kindergarten/' },
+          ]
+        }
+      ],
+      '/primary-school/': [
+        {
+          text: '小学（6-12岁）',
+          items: [
+            { text: '总览', link: '/primary-school/' },
+            { text: '大中华寻宝记', link: '/primary-school/treasure-hunt' },
+            { text: '山海经（孩子一听就懂）', link: '/primary-school/shanhaijing' },
+            { text: 'DK百科图书合集', link: '/primary-school/dk-books' },
+            { text: 'DK英语10000词', link: '/primary-school/dk-english' },
+            { text: '双语纪录片', link: '/primary-school/documentaries' },
+          ]
+        }
+      ],
+      '/secondary-school/': [
+        {
+          text: '初高中（12-18岁）',
+          items: [
+            { text: '总览', link: '/secondary-school/' },
+          ]
+        }
+      ],
     },
 
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
-  },
-
-  locales: {
-    root: { label: 'English', lang: 'en-US', dir: 'ltr' },
-    zh: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
-    pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
-    ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
-    es: { label: 'Español', lang: 'es', dir: 'ltr' },
-    ko: { label: '한국어', lang: 'ko-KR', dir: 'ltr' },
-    fa: { label: 'فارسی', lang: 'fa-IR', dir: 'rtl' },
-    ja: { label: '日本語', lang: 'ja', dir: 'ltr' }
-  },
-
-  vite: {
-    plugins: [
-      groupIconVitePlugin({
-        customIcon: {
-          vitepress: localIconLoader(
-            import.meta.url,
-            '../public/vitepress-logo-mini.svg'
-          ),
-          firebase: 'logos:firebase'
-        }
-      }),
-      onNetlify && llmstxt({ workDir: 'en', ignoreFiles: ['index.md'] })
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/unitaryhighs/vitepress' },
     ],
-    experimental: {
-      enableNativePlugin: true
+
+    footer: {
+      message: '基于夸克网盘教育资源整理',
+      copyright: '© 2026 教育资源分享站'
+    },
+
+    search: {
+      provider: 'local'
     }
-  },
-
-  // prettier-ignore
-  transformPageData: onNetlify ? (pageData, ctx) => {
-    const url = new URL(pageData.relativePath.replace(/(?:(^|\/)index)?\.md$/, '$1'), siteUrl).href
-    const site = resolveSiteDataByRoute(ctx.siteConfig.site, pageData.relativePath)
-    const title = pageData.title ? `${pageData.title} | VitePress` : site.title
-    const description = pageData.description || site.description
-    const locale = localeToOgLocaleMap[site.localeIndex || 'root']
-
-    ;((pageData.frontmatter.head ??= []) as HeadConfig[]).push(
-      ['meta', { property: 'og:url', content: url }],
-      ['meta', { property: 'og:title', content: title }],
-      ['meta', { property: 'og:description', content: description }],
-      ['meta', { property: 'og:type', content: 'website' }],
-      ['meta', { property: 'og:locale', content: locale }],
-      ['meta', { property: 'og:site_name', content: 'VitePress' }],
-      ['meta', { property: 'og:image', content: ogImage }],
-      ['meta', { property: 'og:image:secure_url', content: ogImage }],
-      ['meta', { property: 'og:image:type', content: 'image/jpeg' }],
-      ['meta', { property: 'og:image:width', content: '1280' }],
-      ['meta', { property: 'og:image:height', content: '640' }],
-      ['meta', { property: 'og:image:alt', content: 'VitePress' }],
-      ['link', { rel: 'canonical', href: url }]
-    )
-  } : undefined
+  }
 })
