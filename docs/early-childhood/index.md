@@ -1,5 +1,7 @@
 # 🍼 早教启蒙（0-3岁）
 
+![早教启蒙](/images/early-childhood.jpg)
+
 早教启蒙阶段是孩子认知发展的黄金期。本分类整理了夸克网盘中的早教资源，涵盖语言启蒙、思维训练、学前准备等多个方面。
 
 ---
@@ -21,6 +23,8 @@
 
 👉 [查看详情 →](/early-childhood/hongen)
 
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/c92e08421c754d0ebda3c9e68d4f3546)
+
 ---
 
 ### 🎓 学前教育合集（9.60GB）
@@ -37,6 +41,8 @@
 | 学拼音儿歌 | 拼音学习儿歌 |
 
 👉 [查看详情 →](/early-childhood/preschool)
+
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/b191f7c4eca4455eae533ef2f5beff3d)
 
 ---
 

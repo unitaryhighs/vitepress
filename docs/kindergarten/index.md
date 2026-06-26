@@ -1,6 +1,10 @@
 # 🎨 幼儿园阶段（3-6岁）
 
+![幼儿园](/images/kindergarten.jpg)
+
 幼儿园阶段是孩子社交能力和学习习惯养成的关键时期。
+
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/173ad47cae364d19b06e572abd4e7174)
 
 ---
 

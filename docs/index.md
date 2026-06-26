@@ -38,6 +38,71 @@ features:
     link: /secondary-school/
 ---
 
+## 🖼️ 分类预览
+
+<div class="category-grid">
+
+<a href="/early-childhood/" class="category-card">
+  <img src="/images/early-childhood.jpg" alt="早教启蒙" loading="lazy">
+  <span>🍼 早教启蒙（0-3岁）</span>
+</a>
+
+<a href="/kindergarten/" class="category-card">
+  <img src="/images/kindergarten.jpg" alt="幼儿园" loading="lazy">
+  <span>🎨 幼儿园（3-6岁）</span>
+</a>
+
+<a href="/primary-school/" class="category-card">
+  <img src="/images/primary-school.jpg" alt="小学" loading="lazy">
+  <span>📚 小学（6-12岁）</span>
+</a>
+
+<a href="/secondary-school/" class="category-card">
+  <img src="/images/secondary-school.jpg" alt="初高中" loading="lazy">
+  <span>🎓 初高中（12-18岁）</span>
+</a>
+
+</div>
+
+<style>
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+.category-card {
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.category-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+.category-card span {
+  display: block;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+}
+@media (max-width: 640px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 ## 📊 资源统计
 
 | 分类 | 资源数量 | 主要格式 |
@@ -59,5 +124,5 @@ features:
 ---
 
 ::: tip 💡 使用说明
-本站资源存储在夸克网盘中，通过 Alist 挂载管理。点击各分类页面查看详细资源列表。
+本站资源存储在夸克网盘中，点击各分类页面查看详细资源列表和分享链接。
 :::

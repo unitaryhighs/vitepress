@@ -1,6 +1,10 @@
 # 🎓 初高中阶段（12-18岁）
 
+![初高中](/images/secondary-school.jpg)
+
 初高中阶段资源正在整理中。
+
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/4d9a9a403cac4426a520047633cfc2e1)
 
 ## 计划收录
 
