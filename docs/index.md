@@ -42,23 +42,23 @@ features:
 
 <div class="category-grid">
 
-<a href="/early-childhood/" class="category-card">
-  <img src="/images/early-childhood.jpg" alt="早教启蒙" loading="lazy">
+<a href="/vitepress/early-childhood/" class="category-card">
+  <img src="/vitepress/images/early-childhood.jpg" alt="早教启蒙" loading="lazy">
   <span>🍼 早教启蒙（0-3岁）</span>
 </a>
 
-<a href="/kindergarten/" class="category-card">
-  <img src="/images/kindergarten.jpg" alt="幼儿园" loading="lazy">
+<a href="/vitepress/kindergarten/" class="category-card">
+  <img src="/vitepress/images/kindergarten.jpg" alt="幼儿园" loading="lazy">
   <span>🎨 幼儿园（3-6岁）</span>
 </a>
 
-<a href="/primary-school/" class="category-card">
-  <img src="/images/primary-school.jpg" alt="小学" loading="lazy">
+<a href="/vitepress/primary-school/" class="category-card">
+  <img src="/vitepress/images/primary-school.jpg" alt="小学" loading="lazy">
   <span>📚 小学（6-12岁）</span>
 </a>
 
-<a href="/secondary-school/" class="category-card">
-  <img src="/images/secondary-school.jpg" alt="初高中" loading="lazy">
+<a href="/vitepress/secondary-school/" class="category-card">
+  <img src="/vitepress/images/secondary-school.jpg" alt="初高中" loading="lazy">
   <span>🎓 初高中（12-18岁）</span>
 </a>
 
@@ -114,12 +114,12 @@ features:
 
 ## 🚀 快速导航
 
-- [洪恩幼儿教育全套](/early-childhood/hongen) — 洪恩英语、拼音、数学、识字、绘本
-- [学前教育合集](/early-childhood/preschool) — 摩比爱数学、学拼音儿歌、七田阳光
-- [大中华寻宝记](/primary-school/treasure-hunt) — PDF电子书 + MP3音频
-- [山海经故事](/primary-school/shanhaijing) — 孩子一听就懂的山海经 MP3
-- [DK百科图书](/primary-school/dk-books) — DK百科全书系列 PDF
-- [DK英语10000词](/primary-school/dk-english) — 英语词汇学习 PDF + 音频
+- [洪恩幼儿教育全套](/vitepress/early-childhood/hongen) — 洪恩英语、拼音、数学、识字、绘本
+- [学前教育合集](/vitepress/early-childhood/preschool) — 摩比爱数学、学拼音儿歌、七田阳光
+- [大中华寻宝记](/vitepress/primary-school/treasure-hunt) — PDF电子书 + MP3音频
+- [山海经故事](/vitepress/primary-school/shanhaijing) — 孩子一听就懂的山海经 MP3
+- [DK百科图书](/vitepress/primary-school/dk-books) — DK百科全书系列 PDF
+- [DK英语10000词](/vitepress/primary-school/dk-english) — 英语词汇学习 PDF + 音频
 
 ---
 
