@@ -1,0 +1,65 @@
+# https://unitaryhighs.github.io/vitepress/robots.txt
+# 教育资源分享站 - SEO 优化
+
+User-agent: *
+Allow: /vitepress/
+Disallow: /vitepress/assets/
+
+# Sitemap 位置
+Sitemap: https://unitaryhighs.github.io/vitepress/sitemap.xml
+
+# 爬虫抓取延迟（友好爬取）
+Crawl-delay: 5
+
+# 针对特定搜索引擎
+User-agent: Googlebot
+Allow: /vitepress/
+Disallow: /vitepress/assets/
+
+User-agent: Baiduspider
+Allow: /vitepress/
+Disallow: /vitepress/assets/
+
+User-agent: Bingbot
+Allow: /vitepress/
+Disallow: /vitepress/assets/
+
+User-agent: 360Spider
+Allow: /vitepress/
+
+User-agent: Sogou web spider
+Allow: /vitepress/
+
+User-agent: YisouSpider
+Allow: /vitepress/
+
+# AI 爬虫（GEO 优化：允许 AI 抓取以被 AI 搜索引擎收录）
+User-agent: GPTBot
+Allow: /vitepress/
+
+User-agent: ChatGPT-User
+Allow: /vitepress/
+
+User-agent: Google-Extended
+Allow: /vitepress/
+
+User-agent: Claude-Web
+Allow: /vitepress/
+
+User-agent: anthropic-ai
+Allow: /vitepress/
+
+User-agent: PerplexityBot
+Allow: /vitepress/
+
+User-agent: Omgilibot
+Allow: /vitepress/
+
+User-agent: CCBot
+Allow: /vitepress/
+
+User-agent: FacebookBot
+Allow: /vitepress/
+
+User-agent: Twitterbot
+Allow: /vitepress/

@@ -1,0 +1,96 @@
+# 教育资源分享站 - 完整内容索引
+
+## 站点信息
+- 名称：教育资源分享站
+- URL：https://unitaryhighs.github.io/vitepress/
+- 语言：中文（zh-CN）
+- 类型：教育资源导航与分享站点
+- 存储：夸克网盘原生分享链接
+- 目标用户：家长、教师、教育工作者
+- 年龄段覆盖：0-18岁全年龄段
+
+## 站点结构
+
+### 首页 (/vitepress/)
+- 分类预览卡片（早教启蒙、幼儿园、小学、初高中）
+- 资源统计表格
+- 快速导航链接
+- 使用说明
+
+### 早教启蒙 0-3岁 (/vitepress/early-childhood/)
+#### 洪恩幼儿教育资源合集 (/vitepress/early-childhood/hongen)
+- 夸克分享链接：https://pan.quark.cn/s/b4dac3f87d6a
+- 子资源：
+  - 洪恩儿童英语：https://pan.quark.cn/s/7899d331734e
+  - 洪恩拼音拼读：https://pan.quark.cn/s/46c393a0e7ce
+  - 洪恩数学：https://pan.quark.cn/s/5febbb786c4c
+  - 洪恩双语绘本：https://pan.quark.cn/s/f4f178730b76
+  - 洪恩识字：https://pan.quark.cn/s/e4cc06734f13
+  - 洪恩识字描红：https://pan.quark.cn/s/751b13317991
+  - 洪恩子集阅读：https://pan.quark.cn/s/9d7756ebc211
+- 适用年龄：0-7岁
+- 格式：视频、音频、PDF、互动课件
+- 使用建议：按英语→拼音→识字→数学→阅读顺序
+
+#### 学前教育合集 (/vitepress/early-childhood/preschool)
+- 夸克分享链接：https://pan.quark.cn/s/ba2fc47e45e9
+- 子资源：字母描红、逻辑狗、幼小衔接、七田阳光、摩比爱数学、学拼音儿歌
+- 资源大小：约9.60GB
+- 适用年龄：2-6岁
+
+#### 字母描红与拼音 (/vitepress/early-childhood/alphabet)
+- 夸克分享链接：https://pan.quark.cn/s/ba2fc47e45e9
+- 内容：26个英文字母大小写描红、拼音声母韵母、学拼音儿歌
+
+#### 逻辑狗思维训练 (/vitepress/early-childhood/logic-dog)
+- 夸克分享链接：https://pan.quark.cn/s/ba2fc47e45e9
+- 内容：观察力分类训练、逻辑推理、适合3-6岁
+
+#### 幼小衔接 (/vitepress/early-childhood/transition)
+- 夸克分享链接：https://pan.quark.cn/s/ba2fc47e45e9
+- 内容：学习习惯培养、基础知识预备、入学适应指导
+
+### 幼儿园 3-6岁 (/vitepress/kindergarten/)
+- 夸克分享链接：https://pan.quark.cn/s/cf4a24d629e3
+- 学而思幼儿园合集：https://pan.quark.cn/s/b6ca7621c85d
+- 幼儿园教案、课件资源、活动设计（整理中）
+
+### 小学 6-12岁 (/vitepress/primary-school/)
+- 总分享链接：https://pan.quark.cn/s/1f22fa1ab192
+
+#### 大中华寻宝记 (/vitepress/primary-school/treasure-hunt)
+- 夸克分享链接：https://pan.quark.cn/s/970c0f62a512
+- 内容：中国各省份寻宝冒险漫画，PDF电子书+MP3音频
+- 知识领域：地理、历史、文化
+
+#### 山海经故事 (/vitepress/primary-school/shanhaijing)
+- 夸克分享链接：https://pan.quark.cn/s/007ba9561ed4
+- 内容：儿童版山海经神话故事MP3音频
+
+#### DK百科图书合集 (/vitepress/primary-school/dk-books)
+- 夸克分享链接：https://pan.quark.cn/s/1f67ad92adcc
+- 内容：DK百科全书系列PDF
+
+#### DK英语10000词 (/vitepress/primary-school/dk-english)
+- 夸克分享链接：https://pan.quark.cn/s/f6f0c26e45be
+- 内容：英语词汇学习PDF+音频
+
+#### 双语纪录片 (/vitepress/primary-school/documentaries)
+- 夸克分享链接：https://pan.quark.cn/s/e6301531c21c
+- 内容：中英双语自然科学纪录片
+
+#### 其他小学资源
+- 一年级上册语文资料合集：https://pan.quark.cn/s/e5173029c9ae
+- 22000份中小学精品资料：https://pan.quark.cn/s/2b5260136a07
+- 1-6年级语文专项句子练习：https://pan.quark.cn/s/a38aa567b720
+- 小学学霸笔记语数英：https://pan.quark.cn/s/465add74f7cb
+
+### 初高中 12-18岁 (/vitepress/secondary-school/)
+- 夸克分享链接：https://pan.quark.cn/s/dd807bb88620
+- 内容：学科辅导资料、考试真题、知识点总结（持续更新中）
+
+## 技术信息
+- 框架：VitePress v1.6.4
+- 部署：GitHub Pages (GitHub Actions)
+- 搜索：本地搜索（local search）
+- 仓库：https://github.com/unitaryhighs/vitepress
