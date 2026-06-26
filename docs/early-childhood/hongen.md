@@ -2,7 +2,7 @@
 
 洪恩教育（Human Education）是国内领先的儿童教育品牌，专注于 0-8 岁儿童启蒙教育。本合集包含洪恩教育的核心产品资源。
 
-📥 [夸克网盘分享（全部） →](https://pan.quark.cn/s/c92e08421c754d0ebda3c9e68d4f3546)
+📥 [夸克网盘分享（全部） →](https://pan.quark.cn/s/b4dac3f87d6a)
 
 ---
 
@@ -13,48 +13,48 @@
 - 英语儿歌合集
 - 互动式英语学习课程
 - 适合 2-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/855cf967fdfc47cd9ae887f03708988f)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/7899d331734e)
 
 ### 2. 洪恩拼音拼读
 - 拼音发音教学
 - 声母韵母拼读练习
 - 拼音儿歌辅助记忆
 - 适合 3-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/228b22ee40904ffd895d3e0da81860bc)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/46c393a0e7ce)
 
 ### 3. 洪恩数学
 - 数字认知与书写
 - 基础加减法
 - 图形与空间认知
 - 适合 3-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/98c03ce17530417c8db5e7b2e54536e8)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/5febbb786c4c)
 
 ### 4. 洪恩双语绘本
 - 中英双语对照绘本
 - 经典童话故事
 - 有声伴读功能
 - 适合 2-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/8c79d562878f4a73ade9a2062d66752b)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/f4f178730b76)
 
 ### 5. 洪恩识字
 - 常用汉字启蒙
 - 认字卡片与动画
 - 笔画顺序教学
 - 适合 3-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/bc764533fbfb435694bed88b5d64e258)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/e4cc06734f13)
 
 ### 6. 洪恩识字电子版描红
 - 幼小衔接描红练习
 - 汉字书写笔顺指导
 - 适合 5-6 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/eddd4d75a3e64f6c97392ef1fb320498)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/751b13317991)
 
 ### 7. 洪恩子集阅读
 - 分级阅读材料
 - 从简单到复杂的阅读进阶
 - 培养自主阅读能力
 - 适合 4-7 岁儿童
-- 📥 [夸克分享 →](https://pan.quark.cn/s/e50792f541db45c78a82ed1b846f16ac)
+- 📥 [夸克分享 →](https://pan.quark.cn/s/9d7756ebc211)
 
 ---
 

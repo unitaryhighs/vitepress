@@ -23,7 +23,7 @@
 
 👉 [查看详情 →](/early-childhood/hongen)
 
-📥 [夸克网盘分享 →](https://pan.quark.cn/s/c92e08421c754d0ebda3c9e68d4f3546)
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/b4dac3f87d6a) ｜ [合集(1) →](https://pan.quark.cn/s/c3dcb4c8f095)
 
 ---
 
@@ -42,7 +42,7 @@
 
 👉 [查看详情 →](/early-childhood/preschool)
 
-📥 [夸克网盘分享 →](https://pan.quark.cn/s/b191f7c4eca4455eae533ef2f5beff3d)
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/ba2fc47e45e9)
 
 ---
 

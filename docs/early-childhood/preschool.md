@@ -2,7 +2,7 @@
 
 本资源包约 9.60GB，包含系统的学前阶段学习材料，涵盖书写、思维、数学、拼音等多个领域。
 
-📥 [夸克网盘分享 →](https://pan.quark.cn/s/b191f7c4eca4455eae533ef2f5beff3d)
+📥 [夸克网盘分享 →](https://pan.quark.cn/s/ba2fc47e45e9)
 
 ---
 
