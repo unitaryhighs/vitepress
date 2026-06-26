@@ -43,22 +43,22 @@ features:
 <div class="category-grid">
 
 <a href="/vitepress/early-childhood/" class="category-card">
-  <img src="/vitepress/images/early-childhood.jpg" alt="早教启蒙" loading="lazy">
+  <img src="/images/early-childhood.jpg" alt="早教启蒙" loading="lazy">
   <span>🍼 早教启蒙（0-3岁）</span>
 </a>
 
 <a href="/vitepress/kindergarten/" class="category-card">
-  <img src="/vitepress/images/kindergarten.jpg" alt="幼儿园" loading="lazy">
+  <img src="/images/kindergarten.jpg" alt="幼儿园" loading="lazy">
   <span>🎨 幼儿园（3-6岁）</span>
 </a>
 
 <a href="/vitepress/primary-school/" class="category-card">
-  <img src="/vitepress/images/primary-school.jpg" alt="小学" loading="lazy">
+  <img src="/images/primary-school.jpg" alt="小学" loading="lazy">
   <span>📚 小学（6-12岁）</span>
 </a>
 
 <a href="/vitepress/secondary-school/" class="category-card">
-  <img src="/vitepress/images/secondary-school.jpg" alt="初高中" loading="lazy">
+  <img src="/images/secondary-school.jpg" alt="初高中" loading="lazy">
   <span>🎓 初高中（12-18岁）</span>
 </a>
 
