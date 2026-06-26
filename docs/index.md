@@ -114,12 +114,12 @@ features:
 
 ## 🚀 快速导航
 
-- [洪恩幼儿教育全套](/vitepress/early-childhood/hongen) — 洪恩英语、拼音、数学、识字、绘本
-- [学前教育合集](/vitepress/early-childhood/preschool) — 摩比爱数学、学拼音儿歌、七田阳光
-- [大中华寻宝记](/vitepress/primary-school/treasure-hunt) — PDF电子书 + MP3音频
-- [山海经故事](/vitepress/primary-school/shanhaijing) — 孩子一听就懂的山海经 MP3
-- [DK百科图书](/vitepress/primary-school/dk-books) — DK百科全书系列 PDF
-- [DK英语10000词](/vitepress/primary-school/dk-english) — 英语词汇学习 PDF + 音频
+- [洪恩幼儿教育全套](/early-childhood/hongen) — 洪恩英语、拼音、数学、识字、绘本
+- [学前教育合集](/early-childhood/preschool) — 摩比爱数学、学拼音儿歌、七田阳光
+- [大中华寻宝记](/primary-school/treasure-hunt) — PDF电子书 + MP3音频
+- [山海经故事](/primary-school/shanhaijing) — 孩子一听就懂的山海经 MP3
+- [DK百科图书](/primary-school/dk-books) — DK百科全书系列 PDF
+- [DK英语10000词](/primary-school/dk-english) — 英语词汇学习 PDF + 音频
 
 ---
 
